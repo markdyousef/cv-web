@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import Art from './components/Art';
 import Search from './components/Search';
+import Class from './components/Class';
 import {
   BrowserRouter as Router,
   Route
@@ -16,6 +17,7 @@ const App = () => (
       <Home>
         <Route path="/search" component={Search}/>
         <Route path="/art" component={Art}/>
+        <Route path="/class" component={Class}/>
       </Home>
     </Router>
   </MuiThemeProvider>
